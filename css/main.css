@@ -9,4 +9,27 @@
   z-index: 2;
 }
 
-body{background-color: #233054;}
+body {
+  background-color: #233054;
+}
+
+/* Flyout Navigation Bar */
+#navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(255, 247, 231);
+  z-index: 4;
+}
+.dropdown-nav__closeNavBtn {
+  position: absolute;
+  top: 1px;
+  right: 16px;
+  background-color: rgb(255, 255, 255, 0.6);
+}
+.dropdown-nav__container {
+  height: 100vh;
+  padding: 0 1rem;
+}
