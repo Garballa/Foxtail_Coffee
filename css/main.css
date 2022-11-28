@@ -50,6 +50,7 @@ body {
   background-color: black;
   z-index: 4;
 }
+
 .dropdown-nav__closeNavBtn {
   position: absolute;
   top: 1px;
@@ -63,10 +64,7 @@ body {
 .nav-text {
   color: #fef8f9;
 }
-.logo {
-  margin-bottom: 10px;
-  padding: 0;
-}
+
 /* Hero Section */
 .hero {
   position: relative;
@@ -153,6 +151,15 @@ body {
 }
 .steps--background {
   background-color: #fef8f9;
+}
+.read-more:hover {
+  color: #0a1118;
+}
+.read-more:active {
+  color: #0a1118;
+}
+.read-more:visited {
+  color: #0a1118;
 }
 
 @media (min-width: 544px) {
