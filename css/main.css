@@ -162,6 +162,22 @@ body {
   color: #0a1118;
 }
 
+/* footer */
+#footer {
+  text-align: center;
+}
+#footer-icon:hover {
+  color: #fbf0f6;
+}
+#footer-icon:visited {
+  color: #fbf0f6;
+}
+#footer-icon:active {
+  color: #fbf0f6;
+}
+#footer-icon {
+  color: #fef8f9;
+}
 @media (min-width: 544px) {
   .steps {
     padding-top: 80px;
